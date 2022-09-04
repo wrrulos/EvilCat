@@ -1,6 +1,5 @@
 {
-    "scriptVersion": "1",
-    "v": "1.0",
+    "version": "1/1.0",
     "driver": "nl80211",
     "local_port": "80",
     "templates_with_only_one_data": ["mercado_pago"],
