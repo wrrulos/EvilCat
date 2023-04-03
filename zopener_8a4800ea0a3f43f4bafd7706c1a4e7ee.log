@@ -1,0 +1,61 @@
+[16144:11900:2023-4-3 19:55:39.591] Main Start
+[16144:11900:2023-4-3 19:55:39.592] Command line:"C:\Users\Rulo\Downloads\Zoom_cm_fivbkuzvo4kZ9vvrZo4_mBeD+YqiN0VkpMt0omL7J54sC8e+syQPWxCSS@4MIaAmAUaUvEbzNZ_k97c2d64fed236b55_.exe"  Instance:0x4E0000 Show State:1
+[16144:11900:2023-4-3 19:55:39.613] C:\
+[16144:5860:2023-4-3 19:55:39.615] [process_requst] start, url:https://coderhouse.zoom.us/conf/launch
+[16144:5860:2023-4-3 19:55:40.598] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[16144:5860:2023-4-3 19:55:40.599] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[16144:5860:2023-4-3 19:55:40.599] [read_response_content] API call zHttpQueryInfo failed, error: 12150
+[16144:5860:2023-4-3 19:55:40.600] [log_response_content] Content length (1048576 as unknown):1048576 , Total read: 1746 , Error No: 0 , Status code: 200
+[16144:5860:2023-4-3 19:55:40.600] [log_response_content] header:
+[16144:5860:2023-4-3 19:55:40.600] HTTP/1.1 200 OK
+Date: Mon, 03 Apr 2023 22:55:40 GMT
+Content-Type: text/plain;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-zm-trackingid: v=2.0;clid=aw1;rid=WEB_9934bfb637a102bd05e5fa9f880d6e37
+x-content-type-options: nosniff
+content-security-policy: upgrade-insecure-requests; default-src https://*.zoom.us https://zoom.us blob: 'self'; img-src https: about: blob: data: 'self'; style-src https: safari-extension: chrome-extension: 'unsafe-inline' data: 'self'; font-src https: safari-extension: chrome-extension: blob: data: 'self'; connect-src * about: blob: data: 'self'; media-src * rtmp: blob: data: 'self'; frame-src https: ms-appx-web: zoommtg: zoomus: wvjbscheme: data: blob: 'self'; object-src 'none'; base-uri 'none';
+x-frame-options: SAMEORIGIN
+set-cookie: zm_aid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+x-zm-zoneid: VA2
+strict-transport-security: max-age=31536000; includeSubDomains
+x-xss-protection: 1; mode=block
+referrer-policy: strict-origin-when-cross-origin
+CF-Cache-Status: DYNAMIC
+Set-Cookie: zm_haid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_tmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_htmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: cred=F70AC1FC87F763291E4959DA31BBA293; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_page_auth=aw1_c_ru6sNIpxQnuNwcQ2f--T-A; Domain=.zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_ssid=aw1_c_745jlT6rTEO-nk2xM4TMsg; Domain=.zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_ctaid=D_2uLnHCQ_2Przunw8vyww.1680562540491.39913a8e4c11486595ffc87e2c3f3d6f; Domain=.zoom.us; Expires=Tue, 04-Apr-2023 00:55:40 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_chtaid=660; Domain=.zoom.us; Expires=Tue, 04-Apr-2023 00:55:40 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_mtk_guid=0a5d5a6bd7584c6da2ad3f3c6a2d1462; Domain=.zoom.us; Expires=Wed, 02-Apr-2025 22:55:40 GMT; Path=/; Secure
+Set-Cookie: __cf_bm=YkKkGKy2Btkz7KLlNEig4euuUjWo0gqkovaWOvR_P74-1680562540-0-AW5xURtLJW8jGIxybzwoz9iy5phcZdpu58q6hy7nzIxmrWjMOG0CqQ0xtHpfx0wNx/QfzcEqY2Q4WU1U8EpO3Hg=; path=/; expires=Mon, 03-Apr-23 23:25:40 GMT; domain=.zoom.us; HttpOnly; Secure; SameSite=None
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=b%2F2ZdDIz%2BHX0kZbxgLQCNzEQvzsfeyAeTQuPAU3qsf7c2NvBH9Z5RsOqDamnMvAyn%2FLFRgn3%2BYBdSPkTpELPvR2KNAp%2F4A0ZCP4ruGcrjks7lqfxN210xKXd3YLCMjByHSUKSBR%2FthPc4JWZfRc6eQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7b24e6820e20ba74-EZE
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+
+[16144:5860:2023-4-3 19:55:40.600] [process_requst] End for url:https://coderhouse.zoom.us/conf/launch, return code:200, Error:0, Response content size:1746
+[16144:11900:2023-4-3 19:55:40.609] [client_has_installed_app] found path:
+[16144:11900:2023-4-3 19:55:40.609]  ***NULL-POINTER-PLACEHOLDER***
+[16144:11900:2023-4-3 19:55:40.610] [param_query_local_path] path is: C:\Users\Rulo\AppData\Roaming\Zoom\ZoomDownload\ dir create response : 1 system error: 1008
+[16144:11900:2023-4-3 19:55:40.610] [downloader_run] State:0
+[16144:17348:2023-4-3 19:55:40.611] [process_requst] start, url:https://coderhouse.zoom.us/client/latest/Installer.exe?archType=x64
+[16144:11900:2023-4-3 19:55:40.612] [client_has_installed_app] found path:
+[16144:11900:2023-4-3 19:55:40.612]  ***NULL-POINTER-PLACEHOLDER***
+[16144:17348:2023-4-3 19:55:40.878] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[16144:17348:2023-4-3 19:55:40.878] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[16144:17348:2023-4-3 19:55:40.969] [read_response_file] Status Code:200, content length: 1003848, total read: 1003848, error code: 0
+[16144:17348:2023-4-3 19:55:40.975] [process_requst] End for url:https://coderhouse.zoom.us/client/latest/Installer.exe?archType=x64, return code:200, Error:0, Response content size:0
+[16144:11900:2023-4-3 19:55:41.43] [handle_download_job_done] Index: 1 Curr index: 1 StatusCode: 200 Error: 0 Response is Empty. 
+[16144:17348:2023-4-3 19:55:41.82] [process_requst] start, url:https://coderhouse.zoom.us/client/latest/Zoom.msi?archType=x64
+[16144:17348:2023-4-3 19:55:41.300] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[16144:17348:2023-4-3 19:55:41.300] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[16144:11900:2023-4-3 19:55:41.982] [downloader_cancel] State:1
+[16144:17348:2023-4-3 19:55:41.984] [read_response_file] Status Code:200, content length: 32044568, total read: 8044544, error code: 1011
+[16144:17348:2023-4-3 19:55:42.7] [process_requst] End for url:https://coderhouse.zoom.us/client/latest/Zoom.msi?archType=x64, return code:200, Error:1011, Response content size:0
+[16144:11900:2023-4-3 19:55:42.17] Main End
